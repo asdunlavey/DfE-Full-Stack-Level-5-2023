@@ -1,0 +1,10 @@
+<header>
+  <nav>
+    <ul>
+      <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'active-link': router.isActive('/', true)}">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" [ngClass]="{'active-link': router.isActive('/about', false)}">About</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" [ngClass]="{'active-link': router.isActive('/contact', false)}">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>

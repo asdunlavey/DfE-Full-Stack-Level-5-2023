@@ -1,0 +1,34 @@
+header {
+  align-items: center;
+  background-color: #ec027e;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  color: #fef4e9;
+  text-decoration: none;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+.larger-link {
+  font-size: 20px;
+}
+
+.router-outlet-link {
+  font-size: 24px;
+  text-align: right;
+}
