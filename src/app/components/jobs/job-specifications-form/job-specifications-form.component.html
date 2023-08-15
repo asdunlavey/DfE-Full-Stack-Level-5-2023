@@ -1,0 +1,39 @@
+<form action="/filter" method="get">
+    <h3>Job Application Filter</h3>
+    <label for="minimum_experience">Minimum Experience (years):</label>
+    <input type="number" id="minimum_experience" name="minimum_experience" min="0"><br><br>
+    
+    <label for="required_degree">Required Degree:</label>
+    <select id="required_degree" name="required_degree">
+        <option value="">Any</option>
+        <option value="bachelor">Bachelor's Degree</option>
+        <option value="master">Master's Degree</option>
+        <option value="phd">PhD</option>
+    </select><br><br>
+    
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location"><br><br>
+    
+    <label>Job Type:</label>
+    <div class="radio-container">
+        <input type="radio" id="full_time" name="job_type" value="full_time">
+        <label for="full_time">Full-Time</label>
+        
+        <input type="radio" id="part_time" name="job_type" value="part_time">
+        <label for="part_time">Part-Time</label>
+    </div>
+    
+    <label for="skills">Required Skills:</label>
+    <input type="text" id="skills" name="skills"><br><br>
+    
+    <label for="language_proficiency">Language Proficiency:</label>
+    <select id="language_proficiency" name="language_proficiency">
+        <option value="">Any</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="fluent">Fluent</option>
+    </select><br><br>
+    
+    <input type="submit" value="Filter Applications">
+</form>

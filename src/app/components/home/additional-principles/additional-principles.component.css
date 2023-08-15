@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    flex-basis: calc(50% - 20px);
+  }
+}

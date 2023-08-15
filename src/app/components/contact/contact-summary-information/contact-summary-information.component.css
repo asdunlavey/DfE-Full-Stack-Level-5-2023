@@ -1,0 +1,11 @@
+.contact-summary-information {
+  margin: auto;
+  padding: 20px;
+  width: 75%;
+}
+
+@media (max-width: 552px) {
+  h2 {
+    font-size: large;
+  }
+}
