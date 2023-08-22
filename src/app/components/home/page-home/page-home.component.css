@@ -1,6 +1,14 @@
+img {
+  margin-top: 10px;
+  width: 100%;
+}
 
+.container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-height: 325px;
+}
 
-
-
-
-
+.container:hover {
+  box-shadow: 0px 4px 10px #00000033;
+}

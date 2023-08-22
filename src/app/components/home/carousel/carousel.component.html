@@ -1,0 +1,4 @@
+<div class="pink-styling" *ngFor="let slide of slides; let i = index" [hidden]="i !== currentSlideIndex" (click)="nextSlide()">
+    <h2>Additional Principles (Click)</h2>
+    <p>{{ slide.description }}</p>
+</div>
